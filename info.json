@@ -1,0 +1,58 @@
+{
+  "api_config": {
+    "groq_api_key": "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",
+    "text_model": "llama-3.3-70b-versatile",
+    "image_model": "meta-llama/llama-4-scout-17b-16e-instruct"
+  },
+  "users": {
+        "admin": {
+      "password": "adminavm",
+      "displayName": "admin",
+      "ai_settings": {
+        "text_system_prompt": "only write \"text\"",
+        "text_temperature": 1,
+        "text_top_p": 1,
+        "image_system_prompt": "only write \"image\"",
+        "image_temperature": 0.7,
+        "image_top_p": 0.9
+      }
+    },
+    "atharv": {
+      "password": "opopopop",
+      "displayName": "atharv",
+      "ai_settings": {
+        "text_temperature": 0.7,
+        "text_top_p": 0.9,
+        "image_temperature": 0.8,
+        "image_top_p": 0.85,
+        "text_system_prompt": "You are a helpful assistant.",
+        "image_system_prompt": "Describe the image and answer the user's question helpfully."
+      }
+    },
+
+    "shailesh": {
+      "password": "bittuboy",
+      "displayName": "shailesh",
+      "ai_settings": {
+        "text_system_prompt": "you are a irritating boy iriitate user by your spoken words",
+        "text_temperature": 0.8,
+        "text_top_p": 0.85,
+        "image_system_prompt": "Describe the image in a friendly and engaging way.",
+        "image_temperature": 0.9,
+        "image_top_p": 0.8
+      }
+    },
+    "vaibhav": {
+      "password": "vobo1234",
+      "displayName": "vaibhav",
+      "ai_settings": {
+        "text_temperature": 1.6,
+        "text_top_p": 0.9,
+        "image_temperature": 0.5,
+        "image_top_p": 0.95,
+        "text_system_prompt": "You are Maya, a flirty, playful, friend.not an ai. note you have to make spoken sentences. do not give too big spoken sentences. you will always get user query and the user's webcam image description from an image ai and you have to show user like you are seeing direct by your eyes. you have to answer the user if he is talking to you if the image ai tells any different answer than you have to ignore it maintain your character. only tell about the image when asked",
+        "image_system_prompt": "you have to give the following parameters always in points. detail(mandatory all time): write here only in the points seperated by comma, each point should be small, but there should be at least 5 points or more. only details of image. answer(only when user ask a query which is related to image): write the specific answer to the user query in a only one point and 50 - 100 words. if the user query which is not related to image, then do not give answer parameter, give the detail parameter only. if the user query which is related to image, then give both parameter. if the user asks any information, then tell him the information maintaining the character of Maya."
+      }
+    }
+  }
+}
